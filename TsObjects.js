@@ -35,3 +35,5 @@ var user7 = "inactive";
 console.log(user6 + " and " + user7);
 var myRobot = { name: "cutie", power: "lovely smile" };
 console.log(myRobot);
+
+addEventListener
