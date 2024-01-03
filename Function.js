@@ -1,9 +1,10 @@
 "use strict";
 // Adding types to the parameters of the function
 Object.defineProperty(exports, "__esModule", { value: true });
-var user = function (name, age, loggedIn) {
+function user(name, age, loggedIn) {
     console.log("Hello ".concat(name, "! You are ").concat(age, " years old. You are ").concat(loggedIn ? 'logged in' : 'not logged in'));
-};
+}
+;
 user('sumedh', 19, true);
 // if the user did not give the loggedIn value it this function will throw an error 
 // so to over it we can resign with a default value "" loggedIn:boolean = false ""
